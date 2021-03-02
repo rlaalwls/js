@@ -1,0 +1,16 @@
+body{
+    font-family: "Noto Sans KR", sans-serif;
+}
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+img { display: inline-block; max-width:100%; height:auto; vertical-align: middle; }
+.img_box   {width: 100%;}
+.mo_none{display: block;}
+.mo_block{display: none;}
+
+@media screen and (max-width: 768px){
+    .mo_none{display: none;}
+    .mo_block{display: block;}
+}
